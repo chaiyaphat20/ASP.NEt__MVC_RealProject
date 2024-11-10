@@ -18,7 +18,7 @@ namespace DAL
             log.ProcessID = ProcessID;
             log.ProcessCategoryType = TableName;
             log.ProcessDate = DateTime.Now;
-            log.IPAddress = "123";
+            log.IPAddress = "1234";
             db.Log_Table.Add(log);
             db.SaveChanges();
         }
